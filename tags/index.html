@@ -10,7 +10,7 @@
     <link rel="icon" href="">
   
     
-  <title>Archives | keepiss</title>
+  <title>标 | keepiss</title>
   <link rel="stylesheet" href="/blog/style.css">
   <link rel="stylesheet" href="/blog/lib/jquery.fancybox.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,35 +52,41 @@
   </div>
 </header>
 
-  <main id="archive">
-  <div class="content">
-        
-    
-      <div class="year-list">
-        <h3>2018</h3>
-        <ul>
-          
-            <li >
-              <time>2018/07/15</time>
-              <a href="/blog/2018/07/15/love/">
-                <span>
-                    love
-                </span>
-              </a>
-            </li>
-          
-            <li >
-              <time>2018/07/15</time>
-              <a href="/blog/2018/07/15/hello-muzi/">
-                <span>
+  <main id='tags'>
+  <div class="tags-container">
+  <div id='tag_cloud' class="tags">
+      
+          <a href="#didi" title="didi" rel="2">didi</a>
+      
+  </div>
+  
+  <div class="tag-list">
+      <span class="fa fa-tag listing-seperator" id="didi">
+          <span class="tag-text">didi</span>
+      </span>
+      
+        <div class="post-preview">
+            <a href="/blog/2018/07/15/hello-muzi/">
+                <h2 class="post-title">
                     hello-muzi
-                </span>
-              </a>
-            </li>
-          
-        </ul>
-      </div>
-        
+                </h2>
+                
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+      
+        <div class="post-preview">
+            <a href="/blog/2018/07/15/love/">
+                <h2 class="post-title">
+                    love
+                </h2>
+                
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+      
+  </div>
+    
   </div>
 </main>
 
